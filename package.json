@@ -1,0 +1,27 @@
+{
+  "name": "mandarinfish-router",
+  "version": "0.0.1",
+  "description": "The mandarinfish-router routes all packets of a specific destination to another",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/hsr-ba-hs16-cc/mandarinfish-router.git"
+  },
+  "author": "fabian binna, silvan adrian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/hsr-ba-hs16-cc/mandarinfish-router/issues"
+  },
+  "homepage": "https://gitlab.com/hsr-ba-hs16-cc/mandarinfish-router#README",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "is-ip": "^1.0.0",
+    "shelljs": "^0.7.4",
+    "netfilter": "^0.3.3",
+    "ip": "^1.1.4"
+  }
+}
